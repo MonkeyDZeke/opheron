@@ -11,7 +11,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1><img src="/logo.png" alt="Catalytic Conversations" /></h1>
         <h2 className={styles.callout}>
-          Coming Soon! Be excited!
+          Coming Soon! Be very excited!
         </h2>
       </main>
     </div>
