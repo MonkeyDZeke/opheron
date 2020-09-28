@@ -5,13 +5,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Catalytic Conversations</title>
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1><img src="/logo.png" alt="Catalytic Conversations" /></h1>
+        <h2 className={styles.callout}>
+          Coming Soon!
+        </h2>
       </main>
     </div>
   )

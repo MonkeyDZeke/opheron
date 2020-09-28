@@ -121,3 +121,8 @@
     flex-direction: column;
   }
 }
+
+.callout {
+  align-self: self-end;
+  padding-right: 200px;
+}
