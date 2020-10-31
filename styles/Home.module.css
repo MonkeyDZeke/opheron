@@ -17,6 +17,6 @@
 }
 
 .callout {
-  align-self: self-end;
+  align-self: flex-end;
   padding-right: 200px;
 }
