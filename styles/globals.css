@@ -83,9 +83,15 @@ select {
 * Derived from https://www.smashingmagazine.com/2020/07/css-techniques-legibility/
 */
 
+@font-face {
+  font-family: "Colus";
+  src: url("/Colus-Regular.ttf");
+}
+
 html,
 body {
   font-family: 'Vollkorn', serif;
+  color: #0c0c0c;
 }
 
 @supports (font-size-adjust: 1) {
@@ -96,6 +102,12 @@ body {
 
 p {
   line-height: calc(1ex / 0.32);
+}
+
+p::first-letter {
+  font-weight: 600;
+  color: #042801;
+  letter-spacing: 0.02em;
 }
 
 article h1 {
@@ -126,4 +138,27 @@ article p {
   font-size: 1em;
   line-height: calc(1ex / 0.32);
   margin: calc(1ex / 0.32) 0;
+}
+
+p {
+  width: 60ch;
+  max-width: 100%;
+}
+
+a {
+  background:
+     linear-gradient(
+       to bottom, #c9e9cc 0%,
+       #c9e9cc 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #045601;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a:hover {
+  background-size: 4px 50px;
 }
