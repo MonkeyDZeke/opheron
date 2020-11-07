@@ -161,7 +161,7 @@ a {
   background-size: 4px 4px;
   color: #045601;
   text-decoration: none;
-  transition: background-size .2s;
+  transition: background-size .2s, color .1s;
 }
 
 a:hover {

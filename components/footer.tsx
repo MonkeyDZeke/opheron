@@ -12,10 +12,8 @@ export default function Footer({ page }: IProps) {
   return (
     <footer className={styles.footer}>
       <nav>
-        <ul>
-          <li><a className={getClassName('home')}>HOME</a></li>
-          <li><a className={getClassName('faq')}>FAQ</a></li>
-        </ul>
+        <a href="/" className={getClassName('home')}>HOME</a>
+        <a href="/faq" className={getClassName('faq')}>FAQ</a>
       </nav>
       <div className={styles.socialCard}>
         <ul>

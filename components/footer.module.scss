@@ -6,9 +6,51 @@
   background: linear-gradient(24deg, rgba(2,0,36,1) 0%, rgba(4,86,1,1) 100%);
   color: #c8e9cb;
   clip-path: polygon(0 3vw,100% 0,100% calc(100% - 3vw),0 100%);
-  /* box-shadow: inset 0 0 7px 1px #bdb; */
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
 
-.socialCard img {
-  max-width: 100px;
+  nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    a {
+      margin: 0 2rem;
+      padding: .5rem;
+      color: #c8e9cb;
+      &:hover {
+        color: rgba(4,86,1,1);
+      }
+    }
+  }
+
+  .socialCard {
+    display: flex;
+    justify-content: space-between;
+    width: 60ch;
+    max-width: 1000px;
+    margin: 30px;
+
+    figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #eee;
+      border-radius: 7px;
+      text-align: center;
+      padding: 15px;
+
+      img {
+        max-width: 17ch;
+        border-radius: 7px;
+      }
+
+      figcaption {
+        color: rgba(4,86,1,1);
+        font-size: 80%;
+      }
+    }
+  }
 }
