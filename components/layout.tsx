@@ -1,6 +1,6 @@
 import { ReactChild, ReactChildren } from 'react'
 import Footer, { IPage } from './footer'
-import styles from './layout.module.css'
+import styles from './layout.module.scss'
 
 export default function Layout({ children, page = 'home' }: { children: ReactChild | ReactChildren, page?: IPage }) {
   return (
