@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Layout from '../components/layout'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -9,9 +10,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
       </Head>
 
-      <div className={styles.tagBar}><h2>Liberating the Communication Power of Remote Professionals</h2></div>
-      <h1 className={styles.logo}><img src="/logo.png" alt="Catalytic Conversations" /></h1>
-      <div className={styles.paper}>
+      <Layout>
         <article>
           <p><strong>Greetings friend, my name is Jaymes O’Pheron.</strong></p>
 
@@ -29,11 +28,11 @@ export default function Home() {
 
           <p>I started out as <a href="https://www.codementor.io/@jaymes-opheron" target="_blank" rel="external">a freelance web developer</a> and I enjoyed the intellectual challenge, for sure. But as I gained experience, I found myself gravitating towards coaching other developers and helping them develop their skills more effectively. I particularly found satisfaction in leveraging my experience working 100% remotely and my communication expertise to help others make authentic connections online, even outside my industry.</p>
 
-          <p>Similarly, in my obsession <span className={styles.short}>(my wife might say addiction)</span> with Toastmasters I’ve found myself gaining more fulfillment and satisfaction from coaching other speakers than from doing speeches myself. Despite the fact that I <i>love</i> giving speeches.</p>
+          <p>Similarly, in my obsession <span className="short">(my wife might say addiction)</span> with Toastmasters I’ve found myself gaining more fulfillment and satisfaction from coaching other speakers than from doing speeches myself. Despite the fact that I <i>love</i> giving speeches.</p>
 
           <p>When I realized that, it clicked for me, and I discovered that while web development was <i>what I did</i>, coaching is <i>who I am</i>. </p>
 
-          <p>So let me ask you a question. <span className={styles.short}>(But first, I’ll make the quick observation that in all my experience I’ve never encountered someone who was truly, merely ‘fine.’)</span></p>
+          <p>So let me ask you a question. <span className="short">(But first, I’ll make the quick observation that in all my experience I’ve never encountered someone who was truly, merely ‘fine.’)</span></p>
 
           <p>How are you doing? <i>Really</i> doing?</p>
 
@@ -43,9 +42,7 @@ export default function Home() {
 
           <p>I’m looking forward to hearing from you. :)</p>
         </article>
-      </div>
-      <main className={styles.main}>
-      </main>
+      </Layout>
     </div>
   )
 }

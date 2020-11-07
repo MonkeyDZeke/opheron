@@ -140,6 +140,10 @@ article p {
   margin: calc(1ex / 0.32) 0;
 }
 
+article {
+  max-width: 100%;
+}
+
 p {
   width: 60ch;
   max-width: 100%;
@@ -161,4 +165,8 @@ a {
 
 a:hover {
   background-size: 4px 50px;
+}
+
+.short {
+  font-size: 80%;
 }
