@@ -1,4 +1,4 @@
-import styles from './footer.module.scss'
+import styles from '../styles/footer.module.scss'
 
 export type IPage = 'home' | 'faq'
 
@@ -7,7 +7,7 @@ interface IProps {
 }
 
 export default function Footer({ page }: IProps) {
-  const getClassName = (id: IPage) => id === page ? styles.activePage : styles.inactivePage
+  const getClassName = (id: IPage) => id === page ? styles.activePage : ''
 
   return (
     <footer className={styles.footer}>
@@ -17,10 +17,10 @@ export default function Footer({ page }: IProps) {
       </nav>
       <div className={styles.socialCard}>
         <ul>
-          <li>Facebook Profile</li>
-          <li>Facebook Page</li>
-          <li>LinkedIn Profile</li>
-          <li>LinkedIn Page</li>
+          <li>Friend me on <a href="https://www.facebook.com/jaymes.opheron">Facebook</a></li>
+          <li>Connect with me on <a href="https://www.linkedin.com/in/jaymesopheron/">LinkedIn</a></li>
+          <li>Follow my pages on <a href="https://www.facebook.com/CatalyticConversations/">Facebook</a> and <a href="https://www.linkedin.com/company/catalyticconversations">LinkedIn</a></li>
+          <li><a href="mailto:jaymes@opheron.com">Drop me an email</a> at <strong>jaymes@opheron.com</strong></li>
         </ul>
         <figure>
           <img src="/suit.jpg" alt="Jaymes O'Pheron" />
