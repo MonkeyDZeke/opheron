@@ -1,0 +1,38 @@
+article.faq {
+  dl {
+    padding-bottom: 5rem;
+    width: 60ch;
+
+    dt {
+      position: relative;
+      cursor: pointer;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 110%;
+
+      &::before {
+        content: '\2795';
+        position: absolute;
+        top: 0;
+        left: -2ch;
+        font-size: 90%;
+      }
+      &.active {
+        &::before {
+          content: '\2796';
+        }
+        & + dd {
+          height: auto;
+          opacity: 1;
+        }
+      }
+    }
+    dd {
+      height: 0;
+      opacity: 0;
+    }
+    dd {
+      transition: height .4s, opacity .4s;
+    }
+  }
+}

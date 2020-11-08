@@ -10,6 +10,7 @@ export default function Layout({ children, page = 'home' }: { children: ReactChi
       <div className={styles.paper}>
         {children}
         <Footer page={page} />
+        <small>&copy; 2020 Catalytic Conversations</small>
       </div>
     </>
   )

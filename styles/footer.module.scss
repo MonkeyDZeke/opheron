@@ -29,14 +29,18 @@
   .socialCard {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 60ch;
     max-width: 1000px;
     margin: 3vw;
 
-    li {
-      padding-left: 1ch;
-      &::marker {
-        content: '\2714';
+    ul {
+      padding-left: 2ch;
+      li {
+        padding-left: 1ch;
+        &::marker {
+          content: '\2714';
+        }
       }
     }
 
