@@ -1,6 +1,6 @@
 import styles from '../styles/footer.module.scss'
 
-export type IPage = 'home' | 'faq'
+export type IPage = 'home' | 'faq' | 'upcoming'
 
 interface IProps {
   page: IPage
@@ -13,6 +13,7 @@ export default function Footer({ page }: IProps) {
     <footer className={styles.footer}>
       <nav>
         <a href="/" className={getClassName('home')}>HOME</a>
+        <a href="/upcoming" className={getClassName('upcoming')}>UPCOMING WEBINARS &amp; MASTERMINDS</a>
         <a href="/faq" className={getClassName('faq')}>FAQ</a>
       </nav>
       <div className={styles.socialCard}>
