@@ -90,7 +90,7 @@ export default function Upcoming() {
                   <div className={styles.details}>
                     <dl>
                       <dt>Group One</dt>
-                      <dd><strong>Next Start Date:</strong> January 2nd 2021</dd>
+                      <dd><strong>Next Start Date:</strong> January 9th 2021</dd>
                       <dd><strong>Time:</strong> Every Saturday 6-7pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
                       <dd><strong>Cost:</strong> FREE</dd>
@@ -100,7 +100,7 @@ export default function Upcoming() {
                     </dl>
                     <dl>
                       <dt>Group Two</dt>
-                      <dd><strong>Next Start Date:</strong> January 29th 2021</dd>
+                      <dd><strong>Next Start Date:</strong> February 5th 2021</dd>
                       <dd><strong>Time:</strong> Every Friday 8-9am PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
                       <dd><strong>Cost:</strong> FREE</dd>
