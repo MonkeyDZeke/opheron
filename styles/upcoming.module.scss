@@ -16,6 +16,12 @@ section.calendar {
     background-color: white;
     border-radius: 7px;
   }
+
+  @media(max-width: 800px) {
+    iframe {
+      display: none;
+    }
+  }
 }
 
 section.webinars {
