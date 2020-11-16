@@ -19,14 +19,29 @@ section.calendar {
 }
 
 section.webinars {
+  h4 {
+    font-family: "Colus";
+    color: rgba(4,86,1,1);
+    width: 33ch;
+    max-width: 100%;
+  }
+
+  p {
+    width: 48ch;
+  }
+
   dl {
-    dt, dd, p {
+    dt {
       width: 48ch;
+    }
+    p {
+      width: 60ch;
     }
     dt {
       font-size: 120%;
     }
     dd {
+      font-size: 80%;
       position: relative;
       &::before {
         content: '';
@@ -49,6 +64,13 @@ section.webinars {
 }
 
 section.mmgs {
+  h4 {
+    font-family: "Colus";
+    color: rgba(4,86,1,1);
+    width: 33ch;
+    max-width: 100%;
+  }
+
   dl {
     dt, dd, p {
       width: 48ch;

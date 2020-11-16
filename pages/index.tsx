@@ -30,9 +30,9 @@ export default function Home() {
 
           <p>When I realized that, it clicked for me, and I discovered that while web development was <i>what I did</i>, coaching is <i>who I am</i>. </p>
 
-          <p>So let me ask you a question. <span className="short">(But first, I’ll make the quick observation that in all my experience I’ve never encountered someone who was truly, merely ‘fine.’)</span></p>
+          <p>So let me ask you a question.</p>
 
-          <p>How are you doing? <i>Really</i> doing?</p>
+          <p>How are you doing? <i>Really</i> doing? <span className="short">('Fine' doesn't count. In all my experience, I have never encountered someone who was purely, truly, just 'fine.')</span></p>
 
           <p>Do you want to do better?</p>
 

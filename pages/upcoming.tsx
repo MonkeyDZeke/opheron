@@ -17,8 +17,8 @@ export default function Upcoming() {
             <iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=YjI4Z21pMnN1ZjVpMWpyZnFwNnFqZWhvMG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E4C441&amp;showCalendars=0" width="800" height="500" scrolling="no"></iframe>
           </section>
           <section className={styles.webinars} id="webinars">
-            <p><strong>I present a new free webinar every 3rd Saturday of the month at 4pm PST</strong></p>
-            <p>Upcoming webinars are:</p>
+            <h4>I present a new free webinar every 3rd Saturday of the month at 4pm PST</h4>
+            <p>Upcoming webinars:</p>
             <dl>
               <dt>
                 <a href="https://opheron.leadingthebest.com/WCFE0001" target="_blank" rel="noreferrer">
@@ -75,8 +75,8 @@ export default function Upcoming() {
             </dl>
           </section>
           <section className={styles.mmgs} id="mmgs">
-            <p><strong>Join a <a href="/faq#mastermind">Mastermind Group</a> to grow together
-            with others of like mind</strong></p>
+            <h4>Join a <a href="/faq#mastermind">Mastermind Group</a> to grow together
+            with others of like mind</h4>
             <dl>
               <dt id="free_mmg">15 Invaluable Laws of Growth (FREE)</dt>
               <dd>
