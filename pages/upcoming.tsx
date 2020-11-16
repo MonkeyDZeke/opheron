@@ -75,7 +75,7 @@ export default function Upcoming() {
             </dl>
           </section>
           <section className={styles.mmgs} id="mmgs">
-            <p><strong>Join a <a href="/faq?q=mastermind">Mastermind Group</a> to grow together
+            <p><strong>Join a <a href="/faq#mastermind">Mastermind Group</a> to grow together
             with others of like mind</strong></p>
             <dl>
               <dt id="free_mmg">15 Invaluable Laws of Growth (FREE)</dt>

@@ -1,31 +1,10 @@
 import Head from 'next/head'
-import { useState } from 'react'
+import Link from 'next/link'
 import { GetServerSideProps } from 'next'
-import { ParsedUrlQuery } from 'querystring'
 import Layout from '../components/layout'
 import styles from '../styles/faq.module.scss'
 
-const faqs = [
-  'solo',
-  'christian',
-  'mastermind',
-  'coaching',
-  'pay',
-  'toastmasters',
-] as const
-
-type IFAQS = typeof faqs[number] | ''
-
-export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
-  // annoying use of any because TS is sometimes stupid: https://github.com/microsoft/TypeScript/issues/26255
-  const initialQ = typeof q === 'string' && faqs.includes(q as any) ? q as IFAQS : 'solo'
-  const [active, setActive] = useState<IFAQS>(initialQ)
-  const getClassName = (id: IFAQS) => id === active ? styles.active : ''
-  const handleClick = (e: React.MouseEvent, id: IFAQS) => {
-    e.preventDefault()
-    if (id === active) setActive('')
-    else setActive(id)
-  }
+export default function Faq() {
   return (
     <div className="container">
       <Head>
@@ -36,7 +15,7 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
         <article className={styles.faq}>
           <p><strong>Questions are awesome, glad you're asking some!</strong></p>
           <dl>
-            <dt className={getClassName('solo')} onClick={e => handleClick(e, 'solo')}>
+            <dt id="solo" className={styles.active}>
               Why couldn't I simply read amazing books and apply them myself?
             </dt>
             <dd>
@@ -57,12 +36,15 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
                 mentorship and partnership. There are questions we cannot ask of ourselves that
                 we desperately need to answer. There are blindspots we cannot see until they are
                 shown to us. There are self-limiting beliefs which drive us in endless cycles of
-                destruction until they are exposed by others. There are barriers of fear which wall us against liberation and change which require an external hand for rescue. Any successful recovered addict will tell you they would never have made it out without their sponsor.</p>
+                destruction until they are exposed by others. There are barriers of fear which
+                wall us against liberation and change which require an external hand for rescue.
+                Any successful recovered addict will tell you they would never have made it out
+                without their sponsor.</p>
               <p>Let me ask you a gentle question: in the life-changing books you have read, have
                 you fully put into practice even one tenth of what they offer? I would wager that
                 if you have, it’s because others came alongside you in that endeavor.</p>
             </dd>
-            <dt className={getClassName('christian')} onClick={e => handleClick(e, 'christian')}>
+            <dt id="christian" className={styles.active}>
               Do I have to be a Christian to benefit from your programs?
             </dt>
             <dd>
@@ -80,7 +62,7 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
                 have more common ground and will be able to discuss more aspects of your life with
                 more liberty, but that is by no means required.</p>
             </dd>
-            <dt className={getClassName('mastermind')} onClick={e => handleClick(e, 'mastermind')}>
+            <dt id="mastermind" className={styles.active}>
               What exactly is a Mastermind Group?
             </dt>
             <dd>
@@ -110,10 +92,10 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
                 can then hold us accountable for.</p>
               <p>There is nothing quite like the connection that is forged in these groups. I’ve
                 been awed by it, personally. If you are interested in exploring their potential
-                for yourself, I recommend you <a href="/upcoming#mmgs">check out which ones are
-                upcoming</a> and registering for one that fits your schedule.</p>
+                for yourself, I recommend you <Link href="/upcoming#mmgs"><a>check out which ones are
+                upcoming</a></Link> and registering for one that fits your schedule.</p>
             </dd>
-            <dt className={getClassName('coaching')} onClick={e => handleClick(e, 'coaching')}>
+            <dt id="coaching" className={styles.active}>
               What’s the difference between coaching, training, therapy, and spiritual counselling?
             </dt>
             <dd>
@@ -121,8 +103,7 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
                 become bloated almost beyond recognition. A lot of people associate it most
                 strongly with sports coaches, which is unfortunate. There’s a glut of people
                 wanting to share their advice and call it coaching. Not that there’s anything
-                wrong with teaching things or educating people -- after all,
-                <a key="webinars" href="/upcoming#webinars">I do that too</a>.</p>
+                wrong with teaching things or educating people -- after all, <Link href="/upcoming#webinars"><a>I do that too</a></Link>.</p>
               <p>But coaching isn’t teaching. It isn’t training.</p>
               <p>It isn’t me pouring knowledge or information into your head that you didn’t have
                 before. It’s me drawing out solutions and potential that you didn’t know you
@@ -163,24 +144,23 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
                 trying to improve your physical health, your business success, or your love life.
                 The approach to improvement is fundamentally the same.</p>
               <p>That said, I do have an affinity for those who are remote professionals, because
-                of <a href="https://www.codementor.io/@jaymes-opheron">my experience as a remote
-                web developer</a>, and so it’s easier for me to grok the jargon, in turn making it
+                of <Link href="https://www.codementor.io/@jaymes-opheron"><a>my experience as a remote
+                web developer</a></Link>, and so it’s easier for me to grok the jargon, in turn making it
                 easier for me to ask the right questions.</p>
-              <p>If you want to step forward into this journey,
-                <a href="https://forms.gle/Hd13iF6iVsncr97i6" target="_blank">fill out an
-                application form now!</a></p>
+              <p>If you want to step forward into this journey, <Link href="https://forms.gle/Hd13iF6iVsncr97i6"><a target="_blank">fill out an
+                application form now!</a></Link></p>
             </dd>
-            <dt className={getClassName('pay')} onClick={e => handleClick(e, 'pay')}>
+            <dt id="pay" className={styles.active}>
               How much can I expect to pay?
             </dt>
             <dd>
               <p>If you’re wanting to just dip your toe in and see what a Mastermind is like, or
-                to get to know me better, <a href="/upcoming#free_mmg">you can join a free
-                Mastermind</a> on <a href="https://www.amazon.com/15-Invaluable-Laws-Growth-Potential/dp/1599953676" target="_blank" rel="noreferrer">
-                John Maxwell’s book The 15 Invaluable Laws of Growth</a> risk-free. It’s a great way to get
+                to get to know me better, <Link href="/upcoming#free_mmg"><a>you can join a free
+                Mastermind</a></Link> on <Link href="https://www.amazon.com/15-Invaluable-Laws-Growth-Potential/dp/1599953676"><a target="_blank" rel="noreferrer">
+                John Maxwell’s book The 15 Invaluable Laws of Growth</a></Link> risk-free. It’s a great way to get
                 warmed up to the idea of personal growth and get some clarity on where you want to go next.</p>
               <p>The other Masterminds are all a fixed price, and you can see what’s currently available and
-                upcoming <a href="/upcoming#mmgs">here</a>. The prices are based on how many weeks they are
+                upcoming <Link href="/upcoming#mmgs"><a>here</a></Link>. The prices are based on how many weeks they are
                 for, and the first time I release a new Mastermind group I offer it at 30% off. I also have a
                 10% discount I offer active Toastmasters and those who have successfully completed at least
                 one other of my paid Mastermind groups before.</p>
@@ -189,19 +169,17 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
                 This changes the value they are going to get out of a coaching relationship, and thus how much
                 investment that coaching is worth. It’s not about me and my hourly rate -- it’s about you and
                 the impact the solutions we uncover will have on your life.</p>
-              <p>That means hiring me or any other quality coach will be a significant investment. 
-                <a href="https://forms.gle/Hd13iF6iVsncr97i6" target="_blank">Fill out an application form</a>
-                so we can discuss what that looks like for you.</p>
+              <p>That means hiring me or any other quality coach will be a significant investment. <Link href="https://forms.gle/Hd13iF6iVsncr97i6"><a target="_blank">Fill out an application form</a></Link> so we can discuss what that looks like for you.</p>
             </dd>
-            <dt className={getClassName('toastmasters')} onClick={e => handleClick(e, 'toastmasters')}>
+            <dt id="toastmasters" className={styles.active}>
               What is Toastmasters and why is it a big deal?
             </dt>
             <dd>
-              <p><a href="https://toastmasters.org" target="_blank" rel="noreferrer">Toastmasters
-              International</a> is a global nonprofit educational organization that teaches public
-              speaking and leadership skills through a network of local clubs. It’s been around
-              since 1924, and has shaped the lives of world-class leaders and communicators as
-              well as single moms and college students.</p>
+              <p><Link href="https://toastmasters.org"><a target="_blank" rel="noreferrer">Toastmasters
+                International</a></Link> is a global nonprofit educational organization that teaches public
+                speaking and leadership skills through a network of local clubs. It’s been around
+                since 1924, and has shaped the lives of world-class leaders and communicators as
+                well as single moms and college students.</p>
               <p>For me, Toastmasters is all about confidence and influence. I’ve seen men who
                 have never been truly respected in their lives break down and weep at being
                 applauded for their first speech. I’ve seen shy and insecure individuals blossom
@@ -212,14 +190,12 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
                 completed two full educational paths: Effective Coaching and Presentation Mastery.
                 I’m also working through three more, so the grass doesn’t grow under my feet,
                 haha. I’ve also been highly involved in leadership, not only at the club level,
-                but also in <a href="https://d32toastmasters.org/" target="_blank" rel="noreferrer">
-                my district</a>. I’ve been Area Director twice, and I’m currently a Division Director.
-                I’m currently also a member of four clubs:
-                <a href="https://harbortoastmasters.org/" target="_blank" rel="noreferrer">Harbor Club</a>, 
-                <a href="https://sheltonwa.toastmastersclubs.org/" target="_blank" rel="noreferrer">Shelton
-                Community Club</a>, <a href="https://soundadvice.toastmastersclubs.org/" target="_blank" rel="noreferrer">
-                Sound Advice Advanced</a>, and <a href="https://nerdmasters.toastmastersclubs.org/" target="_blank" rel="noreferrer">
-                Nerdmasters</a> (which I helped charter).</p>
+                but also in <Link href="https://d32toastmasters.org/"><a target="_blank" rel="noreferrer">
+                my district</a></Link>. I’ve been Area Director twice, and I’m currently a Division Director.
+                I’m currently also a member of four clubs: <Link href="https://harbortoastmasters.org/"><a target="_blank" rel="noreferrer">Harbor Club</a></Link>, <Link href="https://sheltonwa.toastmastersclubs.org/"><a target="_blank" rel="noreferrer">Shelton
+                Community Club</a></Link>, <Link href="https://soundadvice.toastmastersclubs.org/"><a target="_blank" rel="noreferrer">
+                Sound Advice Advanced</a></Link>, and <Link href="https://nerdmasters.toastmastersclubs.org/"><a target="_blank" rel="noreferrer">
+                Nerdmasters</a></Link> (which I helped charter).</p>
               <p>I wasn’t joking when I said I’m obsessed. I highly recommend you check out a
                 local club in your area (or drop in to visit one of my clubs -- we all meet
                 online and you’re more than welcome) and see why for yourself.</p>
@@ -230,9 +206,3 @@ export default function Faq({ query: { q } }: { query: ParsedUrlQuery }) {
     </div>
   )
 }
-
-export const getServerSideProps: GetServerSideProps = async ({ query }) => ({
-  props: {
-    query
-  }
-})
