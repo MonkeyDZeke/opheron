@@ -18,9 +18,9 @@ export default function Home() {
 
           <p>Put simply, I am passionate about facilitating conversations which liberate people's full potential.</p>
 
-          <p>That can happen through <a href="/faq?q=coaching">one-on-one coaching sessions</a>, where we work together to help you reach your purpose, vision and goals by working through programs specific to your needs. Together, we create a strategic, powerful plan for you to gain clarity through a regular process including interaction and accountability.</p>
+          <p>That can happen through <a href="/faq#coaching">one-on-one coaching sessions</a>, where we work together to help you reach your purpose, vision and goals by working through programs specific to your needs. Together, we create a strategic, powerful plan for you to gain clarity through a regular process including interaction and accountability.</p>
 
-          <p>That can also happen through <a href="/faq?q=mastermind" target="_blank" rel="external">mastermind group discussions</a>, where a select group of people come together with common focus on personal and business growth. There is a unique synergy of energy, commitment, and excitement that participants bring to a mastermind group. My facilitated groups offer a combination of peer brainstorming, education, accountability and support in a group setting, discovering value from the diverse perspectives of each individual involved.</p>
+          <p>That can also happen through <a href="/faq#mastermind" target="_blank" rel="external">mastermind group discussions</a>, where a select group of people come together with common focus on personal and business growth. There is a unique synergy of energy, commitment, and excitement that participants bring to a mastermind group. My facilitated groups offer a combination of peer brainstorming, education, accountability and support in a group setting, discovering value from the diverse perspectives of each individual involved.</p>
 
           <p>Both of these conversation formats are absolutely amazing. I can’t recommend them enough. I’ve invested into becoming an independent coach, facilitator, trainer, and speaker with certification from <a href="https://johnmaxwellteam.com" target="_blank" rel="external">the John Maxwell Team</a> so that I can dedicate my career to adding value to people this way.</p>
 
