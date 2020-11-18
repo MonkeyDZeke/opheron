@@ -139,7 +139,7 @@ export default function Upcoming() {
                       <dd><strong>Time:</strong> Every Thursday 12-1pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
                       <dd><strong>Cost:</strong>  <s>$139</s> $97.30</dd>
-                      <dd><strong>Duration:</strong> 8 weeks</dd>
+                      <dd><strong>Duration:</strong> 5 weeks</dd>
                       <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
                       <dd><a href="https://opheron.leadingthebest.com/MECF0002" target="_blank" rel="noreferrer">Register Here</a></dd>
                     </dl>
@@ -174,7 +174,7 @@ export default function Upcoming() {
                       <dd><strong>Time:</strong> Every Thursday 12-1pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
                       <dd><strong>Cost:</strong>  <s>$139</s> $97.30</dd>
-                      <dd><strong>Duration:</strong> 8 weeks</dd>
+                      <dd><strong>Duration:</strong> 5 weeks</dd>
                       <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
                       <dd><a href="https://opheron.leadingthebest.com/MECF0004" target="_blank" rel="noreferrer">Register Here</a></dd>
                     </dl>
