@@ -21,32 +21,6 @@ export default function Upcoming() {
             <p>Upcoming webinars:</p>
             <dl>
               <dt>
-                <a href="https://opheron.leadingthebest.com/WCFE0001" target="_blank" rel="noreferrer">
-                  Everyone Communicates, Few Connect
-                </a>
-              </dt>
-              <dd>
-                <p>Learn from the book my "Everyone Communicates, Few Connect" Mastermind series
-                  is based upon, and what to expect from it.</p>
-                <p>Did you know that less than half of Americans say that they’re engaged at work?
-                  While this might seem like dismal news, it also means that your business outcomes
-                   could dramatically improve with just a little bit of effort toward employee
-                   engagement!</p>
-                <p>During this webinar I’ll be talking about the importance of using your influence
-                  to connect with your team and move everyone toward a more proactive and productive
-                  tomorrow.</p>
-                <p>As a leader, by definition, we do our work through other people, so making that
-                  human connection is critical. Unfortunately, the ability to make that connection is often misunderstood and undervalued.</p>
-                <p>Connecting with others increases your influence in every situation, and my goal
-                   for this experience is to equip you with basic practices and principles that you
-                   can use to tap into your full potential as a leader.</p>
-                <p>If you’re interested in discovering what you need to KNOW, SEE, and FEEL in order
-                  to inspire those you work with and manifest the type of career growth that you’re
-                  capable of, <a href="https://opheron.leadingthebest.com/WCFE0001" target="_blank" rel="noreferrer">
-                  join me for my webinar on Everyone Communicates, Few Connect</a>, on Saturday,
-                  November 21st at 4:00 pm PST.</p>
-              </dd>
-              <dt>
                 <a href="https://opheron.leadingthebest.com/WLGW0001" target="_blank" rel="noreferrer">
                   The 15 Invaluable Laws of Growth
                 </a>
