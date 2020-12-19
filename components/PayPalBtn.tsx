@@ -7,7 +7,7 @@ const PayPalBtn = ({ amount, onSuccess, currency }) =>
     currency={currency}
     onSuccess={(details, data) => onSuccess(details, data)}
     options={{
-      clientId: "Af9FnAxZeHcO_xGHBwZ0p46kwoEwLtzmFUfuMME7gqu78b70uuAPbXCPV0-o0-G6M95HsD2lmXXv0Ukx"
+      clientId: "ATSt4CKT7oHby4Jo_o8ehAeKJOUeVB1NqvmOB8cfprYVh4dLMv3EODlCFZA8I78OpEKJE799z_SE_ozS"
     }}
   />
 
