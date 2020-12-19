@@ -105,7 +105,7 @@ export default function Upcoming() {
                       <dd><strong>Next Start Date:</strong> January 9th 2021</dd>
                       <dd><strong>Time:</strong> Every Saturday 6-7pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
-                      <dd><strong>Cost:</strong> FREE</dd>
+                      <dd><strong>Cost:</strong> Pay what you want!</dd>
                       <dd><strong>Duration:</strong> 8 weeks</dd>
                       <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
                       <dd><a href="https://opheron.leadingthebest.com/MLGW0001" target="_blank" rel="noreferrer">Register Here</a></dd>
@@ -115,7 +115,7 @@ export default function Upcoming() {
                       <dd><strong>Next Start Date:</strong> February 5th 2021</dd>
                       <dd><strong>Time:</strong> Every Friday 8-9am PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
-                      <dd><strong>Cost:</strong> FREE</dd>
+                      <dd><strong>Cost:</strong> Pay what you want!</dd>
                       <dd><strong>Duration:</strong> 8 weeks</dd>
                       <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
                       <dd><a href="https://opheron.leadingthebest.com/MLGW0002" target="_blank" rel="noreferrer">Register Here</a></dd>
@@ -124,36 +124,35 @@ export default function Upcoming() {
                 </details>
               </dd>
               <hr />
-              <dt>Everyone Communicates, Few Connect: Principles</dt>
+              <dt>Intentional Living</dt>
               <dd>
-                <p>We’ll mastermind on part one of Everyone Communicates Few Connect by John
-                  Maxwell, covering the 5 Connecting Principles. In this 5-week, in-depth process,
+                <p>We’ll mastermind on Intentional Living by John Maxwell. In this 10-week, in-depth process,
                   you’ll join forces with a unique group of hand-selected, like-minded individuals
-                  focused on creating results in every area of their lives. Having the support and
-                  ideas of other ambitious people will allow you to gain a new perspective on
-                  leadership and adding value to your connection with others.</p>
+                  focused on radically transforming the way we live our lives, pursing excellence
+                  and significance. With al my heart, I believe that <i>you</i> have it within your power
+                  to make your life a great story, an epic story. Let's go on that journey together!</p>
                 <details>
                   <summary>Group Details &amp; Options</summary>
                   <div className={styles.details}>
                     <dl>
                       <dt>Group One</dt>
-                      <dd><strong>Next Start Date:</strong> December 1st 2020</dd>
-                      <dd><strong>Time:</strong> Every Tuesday 8-9am PST</dd>
+                      <dd><strong>Next Start Date:</strong> January 8th 2021</dd>
+                      <dd><strong>Time:</strong> Every Friday 6-7pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
-                      <dd><strong>Cost:</strong> <s>$139</s> $97.30</dd>
-                      <dd><strong>Duration:</strong> 5 weeks</dd>
+                      <dd><strong>Cost:</strong> <s>$278</s> $194.60</dd>
+                      <dd><strong>Duration:</strong> 10 weeks</dd>
                       <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
-                      <dd><a href="https://opheron.leadingthebest.com/MECF0001" target="_blank" rel="noreferrer">Register Here</a></dd>
+                      <dd><a href="https://opheron.leadingthebest.com/CL0001" target="_blank" rel="noreferrer">Register Here</a></dd>
                     </dl>
                     <dl>
                       <dt>Group Two</dt>
-                      <dd><strong>Next Start Date:</strong> December 3rd 2020</dd>
-                      <dd><strong>Time:</strong> Every Thursday 12-1pm PST</dd>
+                      <dd><strong>Next Start Date:</strong> Feburary 6th 2021</dd>
+                      <dd><strong>Time:</strong> Every Saturday 8-9pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
-                      <dd><strong>Cost:</strong>  <s>$139</s> $97.30</dd>
-                      <dd><strong>Duration:</strong> 5 weeks</dd>
+                      <dd><strong>Cost:</strong> <s>$278</s> $194.60</dd>
+                      <dd><strong>Duration:</strong> 10 weeks</dd>
                       <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
-                      <dd><a href="https://opheron.leadingthebest.com/MECF0002" target="_blank" rel="noreferrer">Register Here</a></dd>
+                      <dd><a href="https://opheron.leadingthebest.com/CL0002" target="_blank" rel="noreferrer">Register Here</a></dd>
                     </dl>
                   </div>
                 </details>
