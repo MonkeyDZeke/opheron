@@ -1,6 +1,6 @@
 import styles from '../styles/footer.module.scss'
 
-export type IPage = 'home' | 'faq' | 'upcoming'
+export type IPage = 'home' | 'faq' | 'upcoming' | 'contribute'
 
 interface IProps {
   page: IPage

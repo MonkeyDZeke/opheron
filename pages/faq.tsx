@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { GetServerSideProps } from 'next'
 import Layout from '../components/layout'
 import styles from '../styles/faq.module.scss'
 

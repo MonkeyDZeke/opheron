@@ -11,8 +11,11 @@
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-paypal-button-v2": "^2.6.2",
     "react-scroll-parallax": "^2.3.4",
-    "sass": "^1.29.0"
+    "react-text-mask": "^5.4.3",
+    "sass": "^1.29.0",
+    "text-mask-addons": "^3.8.0"
   },
   "devDependencies": {
     "@types/node": "^14.11.2",
