@@ -8,7 +8,7 @@ import CurrencyInput from '../components/CurrencyInput'
 
 export default function Contribute() {
   const [success, setSuccess] = useState(false)
-  const [amount, setAmount] = useState("50")
+  const [amount, setAmount] = useState("225.18")
   const onSuccess = () => setSuccess(true)
 
   return (
@@ -33,7 +33,7 @@ export default function Contribute() {
             obviously not required to contribute anything. It's totally up to you.
           </p>
           <p className={styles.payment}>
-            <label>Pay what you want:&nbsp;
+            <label>Average cost of a Mastermind:&nbsp;
               <CurrencyInput value={amount} onChange={({ target: { value }}) => setAmount(value)} />
             </label>
             {!success ? (
