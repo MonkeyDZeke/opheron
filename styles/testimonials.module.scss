@@ -1,0 +1,29 @@
+article.testimonials {
+
+  blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+    padding-left: 3ch;
+    margin-bottom: 25px;
+    color: #333;
+    
+    p {
+      margin-bottom: 0;
+    }
+
+    cite {
+      text-align: right;
+      font-size: 90%;
+    }
+
+    &::before {
+      position: absolute;
+      content: '\201C';
+      top: 0.5ch;
+      left: 0;
+      font-size: 300%;
+    }
+  }
+}
