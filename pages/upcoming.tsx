@@ -21,32 +21,6 @@ export default function Upcoming() {
             <p>Upcoming webinars:</p>
             <dl>
               <dt>
-                <a href="https://opheron.leadingthebest.com/WLGW0001" target="_blank" rel="noreferrer">
-                  The 15 Invaluable Laws of Growth
-                </a>
-              </dt>
-              <dd>
-                <p>Learn from the book my "15 Invaluable Laws of Growth" Mastermind series is
-                  based upon, and what to expect from it.</p>
-                <p>How far you grow is truly up to you. Whether you’re interested in personal or
-                  professional growth, learning the 15 Invaluable Laws of Growth will rapidly
-                  accelerate growth in all aspects of your life.</p>
-                <p>Anyone looking to answer their call to lead or add value to their life by
-                  making a difference in the lives of others will know the name John C. Maxwell.
-                  Maxwell has spent over 40 years inspiring positive life transformation and
-                  helping others achieve their highest vision and goals, both personally and
-                  professionally, through his philosophy that “Everything rises and falls on
-                  leadership.”</p>
-                <p>You may have realized by now that growth isn’t automatic. It takes work. You
-                  must be an active participant in achieving your growth. If you’re ready to see
-                  how far you can go, you must learn to embrace change and let go of that which is
-                  holding you back.</p>
-                <p>If you’re interested in learning more about the process of growth and the
-                  techniques needed to unlock your full potential, <a href="https://opheron.leadingthebest.com/WLGW0001" target="_blank" rel="noreferrer">
-                  join me for my webinar on The 15 Invaluable Laws of Growth</a>, on Saturday,
-                  December 19th at 4:00 pm PST.</p>
-              </dd>
-              <dt>
                 <a href="https://opheron.leadingthebest.com/UMCW0001" target="_blank" rel="noreferrer">
                   The Power of Understanding Personality
                 </a>
