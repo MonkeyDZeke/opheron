@@ -87,6 +87,15 @@ export default function Testimonials() {
               <cite>Sarah M.</cite>
           </blockquote>
           <blockquote>
+            <p>Being a member of the mastermind led by Jaymes O'Pheron was a
+              boost in my life. With his guidance, I was able to apply a
+              series of important life lessons to help me live a more
+              satisfying, fulfilling life. It helps to take a look at my life
+              principles periodically so I adjust my view for the better. My
+              husband noticed I was more introspective during the course of
+              this mastermind.</p>
+          </blockquote>
+          <blockquote>
             <p>I have always felt motivated to learn and grow, but it was the feeling of
               community and the fact of accountability that kept me motivated to keep growing.
               Being a part of a like-minded group of people is so powerful and changes your
