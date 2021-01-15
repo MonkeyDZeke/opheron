@@ -124,13 +124,13 @@ export default function Upcoming() {
                 <p>We’ll mastermind on Intentional Living by John Maxwell. In this 10-week, in-depth process,
                   you’ll join forces with a unique group of hand-selected, like-minded individuals
                   focused on radically transforming the way we live our lives, pursing excellence
-                  and significance. With al my heart, I believe that <i>you</i> have it within your power
+                  and significance. With all my heart, I believe that <i>you</i> have it within your power
                   to make your life a great story, an epic story. Let's go on that journey together!</p>
                 <details>
                   <summary>Group Details &amp; Options</summary>
                   <div className={styles.details}>
                     <dl>
-                      <dd><strong>Next Start Date:</strong> Feburary 6th 2021</dd>
+                      <dd><strong>Next Start Date:</strong> February 6th 2021</dd>
                       <dd><strong>Time:</strong> Every Saturday 8-9pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
                       <dd><strong>Cost:</strong> <s>$278</s> $194.60</dd>
