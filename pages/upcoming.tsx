@@ -21,44 +21,6 @@ export default function Upcoming() {
             <p>Upcoming webinars:</p>
             <dl>
               <dt>
-                <a href="https://opheron.leadingthebest.com/UMCW0001" target="_blank" rel="noreferrer">
-                  The Power of Understanding Personality
-                </a>
-              </dt>
-              <dd>
-                <p><i>Understanding personality unlocks connection opportunities and liberates relationships.</i></p>
-                <p>People are complicated.</p>
-                <p>That's pretty self-evident, yes? Every single person is completely unique, with
-                  special gifts, strengths, weaknesses, and challenges. This is beautiful, but can
-                  also make understanding each other difficult. Thankfully, a lot of the uniqueness
-                  we have can be described in terms of preferences and behavior patterns that are
-                  common to everyone. This makes understanding each other a lot more approachable
-                  and practical. And that's good because, in order to connect authentically, we
-                  need to understand what makes each other tick!</p>
-                <p>There are a few simple personality preferences that determine the majority of
-                  how we approach decision making, conflict management, and relating socially.
-                  When you understand how the people around you prioritize these choices you can
-                  start speaking their language and demonstrate how much you really value them.
-                  And not only that -- you can also suddenly understand your own strengths and
-                  weaknesses better so you can collaborate with others who complement your traits.</p>
-                <p>I invite you to join me as I share some of the insights and tools I have
-                  studied and which have served me well over the years. If you join me for this
-                  free webinar you will discover:</p>
-                <p>
-                  <ul>
-                    <li>Four types of people and how to recognize them</li>
-                    <li>How to encourage their unique strengths and gifts</li>
-                    <li>How to cope with the weaknesses they struggle over</li>
-                    <li>How to support them and complement their traits</li>
-                    <li>How to resolve conflicts with and between them</li>
-                    <li>How the manifestation of their traits change online</li>
-                  </ul>
-                </p>
-                <p>This will truly be a life-changing experience! Come ready to ask questions
-                  on Saturday, January 16th at 4:00 pm PST!</p>
-                <p><a href="https://opheron.leadingthebest.com/UMCW0001" target="_blank" rel="noreferrer">Register here!</a></p>
-              </dd>
-              <dt>
                 <a href="https://opheron.leadingthebest.com/GMMW0001" target="_blank" rel="noreferrer">
                   The Guide to Mind Mapping
                 </a>
