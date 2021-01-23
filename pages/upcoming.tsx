@@ -116,7 +116,6 @@ export default function Upcoming() {
                   <summary>Group Details &amp; Options</summary>
                   <div className={styles.details}>
                     <dl>
-                      <dt>Group One</dt>
                       <dd><strong>Next Start Date:</strong> February 23rd 2021</dd>
                       <dd><strong>Time:</strong> Every Tuesday 8-9am PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
@@ -124,16 +123,6 @@ export default function Upcoming() {
                       <dd><strong>Duration:</strong> 10 weeks</dd>
                       <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
                       <dd><a href="https://opheron.leadingthebest.com/ECCM0002" target="_blank" rel="noreferrer">Register Here</a></dd>
-                    </dl>
-                    <dl>
-                      <dt>Group Two</dt>
-                      <dd><strong>Next Start Date:</strong> April 1st 2021</dd>
-                      <dd><strong>Time:</strong> Every Thursday 12-1pm PST</dd>
-                      <dd><strong>Location:</strong> Online via Zoom</dd>
-                      <dd><strong>Cost:</strong> $278</dd>
-                      <dd><strong>Duration:</strong> 10 weeks</dd>
-                      <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
-                      <dd><a href="https://opheron.leadingthebest.com/ECCM0001" target="_blank" rel="noreferrer">Register Here</a></dd>
                     </dl>
                   </div>
                 </details>
