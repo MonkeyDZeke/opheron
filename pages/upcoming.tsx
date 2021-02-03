@@ -92,7 +92,7 @@ export default function Upcoming() {
                   <summary>Group Details &amp; Options</summary>
                   <div className={styles.details}>
                     <dl>
-                      <dd><strong>Next Start Date:</strong> Early March 2021</dd>
+                      <dd><strong>Next Start Date:</strong> March 4th 2021</dd>
                       <dd><strong>Time:</strong> Every Thursday 12-1pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
                       <dd><strong>Cost:</strong> <s>$278</s> $194.60</dd>
