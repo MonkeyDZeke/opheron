@@ -69,7 +69,7 @@ export default function Upcoming() {
                     </dl>
                     <dl>
                       <dt>Group Two</dt>
-                      <dd><strong>Next Start Date:</strong> March 13th 2021</dd>
+                      <dd><strong>Next Start Date:</strong> March 20th 2021</dd>
                       <dd><strong>Time:</strong> Every Saturday 6-7pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
                       <dd><strong>Cost:</strong> Pay what you want!</dd>
