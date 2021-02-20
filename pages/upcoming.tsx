@@ -41,6 +41,33 @@ export default function Upcoming() {
                   my webinar, The Guide to Mind Mapping, on Saturday, February 20th at 4:00 pm PST.</p>
                 <p><a href="https://opheron.leadingthebest.com/GMMW0001" target="_blank" rel="noreferrer">Register here!</a></p>
               </dd>
+              <dt>
+                <a href="https://opheron.leadingthebest.com/BMIW0001" target="_blank" rel="noreferrer">
+                  Being Mindful in the Midst of Chaos
+                </a>
+              </dt>
+              <dd>
+                <p><i>Being Mindful by Creating a Self-Care Plan</i></p>
+                <p>Everyday-stress has become normalized for many of us, but when mild stresses turn
+                  into chronic stress, our physical AND mental health suffers. I want to do my part to
+                  help you gain a better understanding of the tools you have at your disposal to cope
+                  with difficult situations that can create chaos in the mind. That’s why on Saturday,
+                  March 20th at 4:00 pm PDT, I’ll be hosting a webinar called, Being Mindful in the Midst of Chaos.</p>
+                <p>During our time together, I’ll be sharing the connection between mindfulness and self-care
+                  while urging you to explore different factors, people, and situations that could be
+                  causing you excessive and unnecessary stress. We’ll also be discussing ways that you
+                  can revise and revive your physical space to enhance your mental state.</p>
+                <p>From learning to protect yourself from toxic relationships to incorporating tips for
+                  embracing the present moment, we’ll be covering a lot of ground -- but it’s a good
+                  starting point to ensure that you cover all your bases when it comes to caring for
+                  your mental wellbeing.</p>
+                <p>Consider this webinar an opportunity to check in with the health of your relationships,
+                  habits, and thought patterns. Whether you’re a complete novice when it comes to mindfulness,
+                  or you’re well into your second or third gratitude journal, this webinar is good for anyone
+                  and everyone who is looking to take better care of their mental health. You don’t want to miss
+                  out on this webinar, Being Mindful in the Midst of Chaos, on Saturday, March 20th at 4:00 pm PST.</p>
+                <p><a href="https://opheron.leadingthebest.com/BMIW0001" target="_blank" rel="noreferrer">Register here!</a></p>
+              </dd>
             </dl>
           </section>
           <section className={styles.mmgs} id="mmgs">
@@ -58,17 +85,6 @@ export default function Upcoming() {
                   <summary>Group Details &amp; Options</summary>
                   <div className={styles.details}>
                     <dl>
-                      <dt>Group One</dt>
-                      <dd><strong>Next Start Date:</strong> February 5th 2021</dd>
-                      <dd><strong>Time:</strong> Every Friday 8-9am PST</dd>
-                      <dd><strong>Location:</strong> Online via Zoom</dd>
-                      <dd><strong>Cost:</strong> Pay what you want!</dd>
-                      <dd><strong>Duration:</strong> 8 weeks</dd>
-                      <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
-                      <dd><a href="https://opheron.leadingthebest.com/MLGW0002" target="_blank" rel="noreferrer">Register Here</a></dd>
-                    </dl>
-                    <dl>
-                      <dt>Group Two</dt>
                       <dd><strong>Next Start Date:</strong> March 20th 2021</dd>
                       <dd><strong>Time:</strong> Every Saturday 6-7pm PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
@@ -116,7 +132,7 @@ export default function Upcoming() {
                   <summary>Group Details &amp; Options</summary>
                   <div className={styles.details}>
                     <dl>
-                      <dd><strong>Next Start Date:</strong> February 23rd 2021</dd>
+                      <dd><strong>Next Start Date:</strong> March 23rd 2021</dd>
                       <dd><strong>Time:</strong> Every Tuesday 8-9am PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
                       <dd><strong>Cost:</strong> $278</dd>
