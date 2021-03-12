@@ -21,27 +21,6 @@ export default function Upcoming() {
             <p>Upcoming webinars:</p>
             <dl>
               <dt>
-                <a href="https://opheron.leadingthebest.com/GMMW0001" target="_blank" rel="noreferrer">
-                  The Guide to Mind Mapping
-                </a>
-              </dt>
-              <dd>
-                <p><i>Improve Your Understanding by Mind Mapping</i></p>
-                <p>Do you have trouble sharing your thoughts in a way that others understand? Do
-                  you long for a better way to organize projects and plan ahead? Are you looking
-                  for a new way to collaboratively problem-solve?</p>
-                <p>If so, mind mapping is a great technique for you to learn and perfect.</p>
-                <p>Mind mapping is a tool that uses words, images, numbers, and colors to group
-                  together natural associations, generate more ideas, and find deeper meaning.
-                  Thanks to its intuitive design, you can generate ideas quicker, review
-                  information faster, and explore creative pathways that would be less obvious
-                  with lists, paragraphs of writing, or a drawn-out set of notes.</p>
-                <p>If you’re ready to learn a new way of organizing your thoughts and ideas into
-                  a visual graphic that you can share with others, you don’t want to miss out on
-                  my webinar, The Guide to Mind Mapping, on Saturday, February 20th at 4:00 pm PST.</p>
-                <p><a href="https://opheron.leadingthebest.com/GMMW0001" target="_blank" rel="noreferrer">Register here!</a></p>
-              </dd>
-              <dt>
                 <a href="https://opheron.leadingthebest.com/BMIW0001" target="_blank" rel="noreferrer">
                   Being Mindful in the Midst of Chaos
                 </a>
