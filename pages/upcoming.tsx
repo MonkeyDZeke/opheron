@@ -53,7 +53,7 @@ export default function Upcoming() {
             <h4>Join a <a href="/faq#mastermind">Mastermind Group</a> to grow together
             with others of like mind</h4>
             <dl>
-              <dt id="free_mmg">15 Invaluable Laws of Growth (FREE)</dt>
+              {/* <dt id="free_mmg">15 Invaluable Laws of Growth (FREE)</dt>
               <dd>
                 <p>In this 8-week Mastermind, you’ll join forces with a unique group of
                   like-minded individuals focused on learning all about how to enhance their
@@ -98,7 +98,7 @@ export default function Upcoming() {
                   </div>
                 </details>
               </dd>
-              <hr />
+              <hr /> */}
               <dt>Everyone Communicates, Few Connect</dt>
               <dd>
                 <p>We’ll mastermind on Everyone Communicates Few Connect by John
@@ -114,7 +114,7 @@ export default function Upcoming() {
                       <dd><strong>Next Start Date:</strong> March 23rd 2021</dd>
                       <dd><strong>Time:</strong> Every Tuesday 8-9am PST</dd>
                       <dd><strong>Location:</strong> Online via Zoom</dd>
-                      <dd><strong>Cost:</strong> $278</dd>
+                      <dd><strong>Cost:</strong> <s>$278</s> $139</dd>
                       <dd><strong>Duration:</strong> 10 weeks</dd>
                       <dd><strong>ONLY 10 SEATS AVAILABLE</strong></dd>
                       <dd><a href="https://opheron.leadingthebest.com/ECCM0002" target="_blank" rel="noreferrer">Register Here</a></dd>
