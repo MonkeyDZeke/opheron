@@ -11,7 +11,8 @@ export default function Layout({ children, page = 'home' }: { children: ReactChi
       <h1 className={styles.logo}><a href="/"><img src="/logo.png" alt="Catalytic Conversations" /></a></h1>
       <nav className={styles.nav}>
         <a href="/" className={getClassName('home')}>HOME</a>
-        <a href="/upcoming" className={getClassName('upcoming')}>UPCOMING WEBINARS &amp; MASTERMINDS</a>
+        <a href="/speaking" className={getClassName('speaking')}>SPEAKING</a>
+        <a href="/upcoming" className={getClassName('upcoming')}>UPCOMING EVENTS</a>
         <a href="/testimonials" className={getClassName('testimonials')}>TESTIMONIALS</a>
         <a href="/faq" className={getClassName('faq')}>FAQ</a>
       </nav>
