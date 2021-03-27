@@ -12,7 +12,7 @@ export default function Home() {
         <article>
           <p><strong>Greetings friend, my name is Jaymes O’Pheron.</strong></p>
 
-          <p>Yep, Jaymes with a <a href="https://www.dictionary.com/browse/wye" target="_blank" rel="external noreferrer">wye</a>
+          <p>Yep, Jaymes with a <a href="https://www.dictionary.com/browse/wye" target="_blank" rel="external noreferrer">wye </a>
             &ndash; or as I like to say &ndash; Jaymes with a why. “Why” is one of my favorite
             questions, and I <i>love</i> to ask questions. It’s kind of my thing, to be honest.
           </p>
@@ -45,11 +45,11 @@ export default function Home() {
 
           <p>Both of these conversation formats are absolutely amazing. I can’t recommend them
             enough. I’ve invested into becoming an independent coach, facilitator, trainer, and
-            speaker with certification from <a href="https://johnmaxwellteam.com" target="_blank" rel="external noreferrer">the John Maxwell Team</a>
+            speaker with certification from <a href="https://johnmaxwellteam.com" target="_blank" rel="external noreferrer">the John Maxwell Team </a>
             so that I can dedicate my career to adding value to people this way.
           </p>
 
-          <p>I started out as <a href="https://www.codementor.io/@jaymes-opheron" target="_blank" rel="external noreferrer">a freelance web developer</a>
+          <p>I started out as <a href="https://www.codementor.io/@jaymes-opheron" target="_blank" rel="external noreferrer">a freelance web developer </a>
             and I enjoyed the intellectual challenge, for sure. But as I gained experience,
             I found myself gravitating towards coaching other developers and helping them
             develop their skills more effectively. I particularly found satisfaction in

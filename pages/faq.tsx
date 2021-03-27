@@ -103,7 +103,7 @@ export default function Faq() {
               <p>There is nothing quite like the connection that is forged in these groups. I’ve
                 been awed by it, personally. If you are interested in exploring their potential
                 for yourself, I recommend you
-                <LinkTo href="/upcoming#mmgs">check out which ones are upcoming</LinkTo>
+                <LinkTo href="https://courses.opheron.com/masterminds"> check out which ones are upcoming </LinkTo>
                 and registering for one that fits your schedule.
               </p>
             </dd>
@@ -115,7 +115,7 @@ export default function Faq() {
                 become bloated almost beyond recognition. A lot of people associate it most
                 strongly with sports coaches, which is unfortunate. There’s a glut of people
                 wanting to share their advice and call it coaching. Not that there’s anything
-                wrong with teaching things or educating people -- after all, <LinkTo href="/upcoming#webinars">I do that too</LinkTo>.
+                wrong with teaching things or educating people -- after all, <LinkTo href="https://courses.opheron.com/free-webinars">I do that too</LinkTo>.
               </p>
               <p>But coaching isn’t teaching. It isn’t training.</p>
               <p>It isn’t me pouring knowledge or information into your head that you didn’t have
@@ -165,14 +165,12 @@ export default function Faq() {
                 The approach to improvement is fundamentally the same.
               </p>
               <p>That said, I do have an affinity for those who are remote professionals, because of
-                <LinkTo href="https://www.codementor.io/@jaymes-opheron">my experience as a remote web developer</LinkTo>
+                <LinkTo href="https://www.codementor.io/@jaymes-opheron"> my experience as a remote web developer</LinkTo>
                 , and so it’s easier for me to grok the jargon, in turn making it
                 easier for me to ask the right questions.
               </p>
               <p>If you want to step forward into this journey,
-                <LinkTo href="https://forms.gle/Hd13iF6iVsncr97i6" target="_blank">
-                  fill out an application form now!
-                </LinkTo>
+                <LinkTo href="https://forms.gle/Hd13iF6iVsncr97i6" target="_blank"> fill out an application form now!</LinkTo>
               </p>
             </dd>
             <dt id="pay" className={styles.active}>
@@ -181,14 +179,13 @@ export default function Faq() {
             <dd>
               <p>If you’re wanting to just dip your toe in and see what a Mastermind is like, or
                 to get to know me better,
-                <LinkTo href="/upcoming#free_mmg">you can join a free Mastermind</LinkTo> on
-                <LinkTo href="https://www.amazon.com/15-Invaluable-Laws-Growth-Potential/dp/1599953676" target="_blank" rel="noreferrer">
-                  John Maxwell’s book The 15 Invaluable Laws of Growth
-                </LinkTo> risk-free. It’s a great way to get warmed up to the idea of personal
+                <LinkTo href="https://courses.opheron.com/masterminds"> you can join a free Mastermind</LinkTo> on
+                <LinkTo href="https://www.amazon.com/15-Invaluable-Laws-Growth-Potential/dp/1599953676" target="_blank" rel="noreferrer"> John Maxwell’s book The 15 Invaluable Laws of Growth </LinkTo>
+                risk-free. It’s a great way to get warmed up to the idea of personal
                 growth and get some clarity on where you want to go next.
               </p>
               <p>The other Masterminds are all a fixed price, and you can see what’s
-                currently available and upcoming <LinkTo href="/upcoming#mmgs">here</LinkTo>. The prices
+                currently available and upcoming <LinkTo href="https://courses.opheron.com/masterminds">here</LinkTo>. The prices
                 are based on how many weeks they are for, and the first time I release a new
                 Mastermind group I offer it at 30% off. I also have a 10% discount I offer
                 active Toastmasters and those who have successfully completed at least
@@ -202,7 +199,7 @@ export default function Faq() {
                 the impact the solutions we uncover will have on your life.
               </p>
               <p>That means hiring me or any other quality coach will be a significant investment.
-                <LinkTo href="https://forms.gle/Hd13iF6iVsncr97i6">Fill out an application form</LinkTo>
+                <LinkTo href="https://forms.gle/Hd13iF6iVsncr97i6"> Fill out an application form </LinkTo>
                 so we can discuss what that looks like for you.
               </p>
             </dd>
@@ -210,7 +207,7 @@ export default function Faq() {
               What is Toastmasters and why is it a big deal?
             </dt>
             <dd>
-              <p><LinkTo href="https://toastmasters.org" target="_blank" rel="noreferrer">Toastmasters International</LinkTo>
+              <p><LinkTo href="https://toastmasters.org" target="_blank" rel="noreferrer">Toastmasters International </LinkTo>
                 is a global nonprofit educational organization that teaches public
                 speaking and leadership skills through a network of local clubs. It’s been around
                 since 1924, and has shaped the lives of world-class leaders and communicators as

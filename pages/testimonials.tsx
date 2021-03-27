@@ -115,7 +115,7 @@ export default function Testimonials() {
               everyday mindset.
             </p>
           </blockquote>
-          <p>Do you want to join in this experience? <a href="/upcoming#mmgs">Sign up for a Mastermind here!</a></p>
+          <p>Do you want to join in this experience? <a href="https://courses.opheron.com/masterminds">Sign up for a Mastermind here!</a></p>
         </article>
       </Layout>
     </div>

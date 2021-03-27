@@ -60,7 +60,7 @@ export default function Speaking() {
           <p>
             &#10087;
             <i>
-              <LinkTo target="_blank" rel="external" href="https://docs.google.com/forms/d/e/1FAIpQLSdgKGZpvUb05y5O2qCuZrwKM1_Webp0NMD7kTOytBzXQjQFUg/viewform?usp=sf_link">Inquire now</LinkTo>
+              <LinkTo target="_blank" rel="external" href="https://docs.google.com/forms/d/e/1FAIpQLSdgKGZpvUb05y5O2qCuZrwKM1_Webp0NMD7kTOytBzXQjQFUg/viewform?usp=sf_link">Inquire now </LinkTo>
               about having me present at your next online conference, seminar, or webinar!
             </i>
             &#9753;
