@@ -25,6 +25,12 @@ export default function Footer({ page }: IProps) {
           <li>Connect with me on <a href="https://www.linkedin.com/in/jaymesopheron/">LinkedIn</a></li>
           <li>Follow my pages on <a href="https://www.facebook.com/CatalyticConversations/">Facebook</a> and <a href="https://www.linkedin.com/company/catalyticconversations">LinkedIn</a></li>
           <li><a href="mailto:jaymes@opheron.com">Drop me an email</a> at <strong>jaymes@opheron.com</strong></li>
+          <li>
+            <a target="_blank" rel="external noreferrer" href="https://calendly.com/jaymes-opheron/curiosity-call">
+              Book a free curiosity call
+            </a>
+            &nbsp;at a time convenient for your schedule
+          </li>
         </ul>
         <figure>
           <img src="/suit.jpg" alt="Jaymes O'Pheron" />
