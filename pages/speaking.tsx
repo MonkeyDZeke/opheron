@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
-import LinkTo from '../components/LinkTo'
+import styles from '../styles/speaking.module.scss'
+import componentStyles from '../styles/components.module.scss'
+import ActionLink from '../components/ActionLink'
 
 export default function Speaking() {
   return (
@@ -10,7 +12,7 @@ export default function Speaking() {
       </Head>
 
       <Layout page="speaking">
-        <article>
+        <article className={styles.speaking}>
           <p>
             The modern world is still growing through the stages of becoming globally connected.
             Technology links us into a vast network of information -- information about history,
@@ -24,7 +26,9 @@ export default function Speaking() {
             and more.
           </p>
           <p>
-            Technology is often blamed. But technology is not the root of the problem.
+            <span className={componentStyles.focus}>
+              Technology is often blamed. But technology is not the root of the problem.
+            </span>
           </p>
           <p>
             The problem is that we humans are by default lazy and immature connectors. Technology
@@ -43,13 +47,13 @@ export default function Speaking() {
           </p>
           <p>
             Available presentation topics include:
-            <ul>
-              <li>The secret to applying personality insights online</li>
-              <li>Toxic video conferencing and how to heal the problem</li>
-              <li>Games, productivity, community, and the power of story</li>
-              <li>Social media relationships and work culture</li>
-            </ul>
           </p>
+          <ul>
+            <li>The secret to applying personality insights online</li>
+            <li>Toxic video conferencing and how to heal the problem</li>
+            <li>Games, productivity, community, and the power of story</li>
+            <li>Social media relationships and work culture</li>
+          </ul>
           <p>
             With each paid presentation I also include a special offer to attendees who opt-in: an
             exclusive opportunity to congregate together in small, intimate behind-the-stage
@@ -58,12 +62,10 @@ export default function Speaking() {
             mingle and dive deeper into the learning experience!
           </p>
           <p>
-            &#10087;
-            <i>
-              <LinkTo target="_blank" rel="external" href="https://docs.google.com/forms/d/e/1FAIpQLSdgKGZpvUb05y5O2qCuZrwKM1_Webp0NMD7kTOytBzXQjQFUg/viewform?usp=sf_link">Inquire now </LinkTo>
-              about having me present at your next online conference, seminar, or webinar!
-            </i>
-            &#9753;
+            <ActionLink target="_blank" rel="external" href="https://docs.google.com/forms/d/e/1FAIpQLSdgKGZpvUb05y5O2qCuZrwKM1_Webp0NMD7kTOytBzXQjQFUg/viewform?usp=sf_link">
+              Inquire now about having me present at your next online conference, seminar,
+              or webinar!
+            </ActionLink>
           </p>
         </article>
       </Layout>

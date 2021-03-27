@@ -1,6 +1,6 @@
 import styles from '../styles/footer.module.scss'
 
-export type IPage = 'home' | 'faq' | 'contribute' | 'testimonials' | 'speaking'
+export type IPage = 'home' | 'faq' | 'contribute' | 'testimonials' | 'speaking' | 'coaching'
 
 interface IProps {
   page: IPage
@@ -13,6 +13,7 @@ export default function Footer({ page }: IProps) {
     <footer className={styles.footer}>
       <nav>
         <a href="/" className={getClassName('home')}>HOME</a>
+        <a href="/coaching" className={getClassName('coaching')}>COACHING</a>
         <a href="/speaking" className={getClassName('speaking')}>SPEAKING</a>
         <a href="https://courses.opheron.com/upcoming-events">UPCOMING EVENTS</a>
         <a href="/testimonials" className={getClassName('testimonials')}>TESTIMONIALS</a>
