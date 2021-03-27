@@ -1,20 +1,20 @@
 import styles from '../styles/footer.module.scss'
 
-export type IPage = 'home' | 'faq' | 'upcoming' | 'contribute' | 'testimonials' | 'speaking'
+export type IPage = 'home' | 'faq' | 'contribute' | 'testimonials' | 'speaking'
 
 interface IProps {
   page: IPage
 }
 
 export default function Footer({ page }: IProps) {
-  const getClassName = (id: IPage) => id === page ? styles.activePage : ''
+  const getClassName = (id: IPage) => (id === page ? styles.activePage : '')
 
   return (
     <footer className={styles.footer}>
       <nav>
         <a href="/" className={getClassName('home')}>HOME</a>
         <a href="/speaking" className={getClassName('speaking')}>SPEAKING</a>
-        <a href="/upcoming" className={getClassName('upcoming')}>UPCOMING EVENTS</a>
+        <a href="https://courses.opheron.com/upcoming-events">UPCOMING EVENTS</a>
         <a href="/testimonials" className={getClassName('testimonials')}>TESTIMONIALS</a>
         <a href="/faq" className={getClassName('faq')}>FAQ</a>
       </nav>
@@ -27,7 +27,7 @@ export default function Footer({ page }: IProps) {
         </ul>
         <figure>
           <img src="/suit.jpg" alt="Jaymes O'Pheron" />
-          <figcaption>Jaymes O'Pheron</figcaption>
+          <figcaption>Jaymes O&apos;Pheron</figcaption>
         </figure>
       </div>
     </footer>

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import PayPalBtn from '../components/PayPalBtn'
 import Layout from '../components/layout'
 import styles from '../styles/contribute.module.scss'
@@ -8,7 +7,7 @@ import CurrencyInput from '../components/CurrencyInput'
 
 export default function Contribute() {
   const [success, setSuccess] = useState(false)
-  const [amount, setAmount] = useState("225.18")
+  const [amount, setAmount] = useState('225.18')
   const onSuccess = () => setSuccess(true)
 
   return (
@@ -29,17 +28,21 @@ export default function Contribute() {
           <p>
             Therefore, here is now an opportunity for you to contribute to me
             being able to continue offering these powerful Masterminds free of charge.
-            If you're on this page, you've already successfully registered, so it's
-            obviously not required to contribute anything. It's totally up to you.
+            If you&apos;re on this page, you&apos;ve already successfully registered, so it&apos;s
+            obviously not required to contribute anything. It&apos;s totally up to you.
           </p>
           <p className={styles.payment}>
+            {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
             <label>Average cost of a Mastermind:&nbsp;
-              <CurrencyInput value={amount} onChange={({ target: { value }}) => setAmount(value)} />
+              <CurrencyInput
+                value={amount}
+                onChange={({ target: { value } }) => setAmount(value)}
+              />
             </label>
             {!success ? (
               <PayPalBtn
                 amount={parseFloat(amount.replace(/[$,]*/g, ''))}
-                currency={'USD'}
+                currency="USD"
                 onSuccess={onSuccess}
               />
             ) : (
