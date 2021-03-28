@@ -89,22 +89,23 @@ export default function Faq() {
                 project as a focus, sometimes not. Not all work as well as others depending on who
                 is in them, who is facilitating them, and various other factors.
               </p>
-              <p>The kind of Mastermind that I am certified to facilitate has been proven to be
+              <p>The kind of Mastermind that I facilitate has been proven to be
                 dramatically effective by tens of thousands of people all over the world in every
                 conceivable industry and background. As a trained facilitator, I lead a group of
-                8-10 select, growth-focused, motivated individuals through a powerful,
-                life-changing book (typically by John Maxwell) for a set number of weeks. We meet
+                6-10 select, growth-focused, motivated individuals through a powerful, life-changing
+                book or course (n addition to my own content, I include a few select books by
+                communication and leadership expert John Maxwell) for a set number of weeks. We meet
                 weekly for an hour where we celebrate our wins, collaboratively seek solutions for
-                challenges we’ve faced, explore the selected one or two chapters assigned for that
-                week’s reading for actionable value in our current situations, assist each other
-                in uncovering barriers to progress, and self-assign action items that the group
-                can then hold us accountable for.
+                challenges we’ve faced, explore the content selected for that week’s focus for
+                actionable value in our current situations, assist each other in uncovering barriers
+                to progress, and self-assign action items that the group can then hold us
+                accountable for.
               </p>
               <p>There is nothing quite like the connection that is forged in these groups. I’ve
                 been awed by it, personally. If you are interested in exploring their potential
-                for yourself, I recommend you
+                for yourself, I recommend that you
                 <LinkTo href="https://courses.opheron.com/masterminds"> check out which ones are upcoming </LinkTo>
-                and registering for one that fits your schedule.
+                and register for one that fits your schedule.
               </p>
             </dd>
             <dt id="coaching" className={styles.active}>

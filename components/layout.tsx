@@ -9,7 +9,10 @@ export default function Layout({ children, page = 'home' }: { children: ReactChi
   return (
     <>
       <div className={styles.tagBar}>
-        <h2>Liberating Your Potential Through the Power of Intentional Habits and Communication</h2>
+        <h2>
+          Liberating You From Digital Burnout &amp; Disengagement
+          Through the Power of Relational Mastery
+        </h2>
       </div>
       <h1 className={styles.logo}><a href="/"><img src="/logo.png" alt="Catalytic Conversations" /></a></h1>
       <nav className={styles.nav}>
