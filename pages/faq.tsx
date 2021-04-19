@@ -174,36 +174,6 @@ export default function Faq() {
                 <LinkTo href="https://forms.gle/Hd13iF6iVsncr97i6" target="_blank"> fill out an application form now!</LinkTo>
               </p>
             </dd>
-            <dt id="pay" className={styles.active}>
-              How much can I expect to pay?
-            </dt>
-            <dd>
-              <p>If you’re wanting to just dip your toe in and see what a Mastermind is like, or
-                to get to know me better,
-                <LinkTo href="https://courses.opheron.com/masterminds"> you can join a free Mastermind</LinkTo> on
-                <LinkTo href="https://www.amazon.com/15-Invaluable-Laws-Growth-Potential/dp/1599953676" target="_blank" rel="noreferrer"> John Maxwell’s book The 15 Invaluable Laws of Growth </LinkTo>
-                risk-free. It’s a great way to get warmed up to the idea of personal
-                growth and get some clarity on where you want to go next.
-              </p>
-              <p>The other Masterminds are all a fixed price, and you can see what’s
-                currently available and upcoming <LinkTo href="https://courses.opheron.com/masterminds">here</LinkTo>. The prices
-                are based on how many weeks they are for, and the first time I release a new
-                Mastermind group I offer it at 30% off. I also have a 10% discount I offer
-                active Toastmasters and those who have successfully completed at least
-                one other of my paid Mastermind groups before.
-              </p>
-              <p>Coaching programs are much more variable in cost because they tend to be more
-                personalized to the individual. Different clients have different needs and
-                function at different levels. This changes the value they are going to get
-                out of a coaching relationship, and thus how much investment that coaching
-                is worth. It’s not about me and my hourly rate -- it’s about you and
-                the impact the solutions we uncover will have on your life.
-              </p>
-              <p>That means hiring me or any other quality coach will be a significant investment.
-                <LinkTo href="https://forms.gle/Hd13iF6iVsncr97i6"> Fill out an application form </LinkTo>
-                so we can discuss what that looks like for you.
-              </p>
-            </dd>
             <dt id="toastmasters" className={styles.active}>
               What is Toastmasters and why is it a big deal?
             </dt>
