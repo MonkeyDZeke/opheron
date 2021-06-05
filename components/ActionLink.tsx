@@ -4,7 +4,11 @@ import styles from '../styles/components.module.scss'
 const ActionLink = ({
   children, href, left = false, ...rest
 }) => (
-  <LinkTo className={`${styles.action} ${left && styles.left}`} href={href} {...rest}>{children}</LinkTo>
+  <div className={styles.action}>
+    <span className={styles.actionbtn}>
+      <LinkTo className={`${styles.actionlink} ${left && styles.left}`} href={href} {...rest}>{children}</LinkTo>
+    </span>
+  </div>
 )
 
 export default ActionLink

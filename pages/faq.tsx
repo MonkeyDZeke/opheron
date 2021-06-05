@@ -103,8 +103,8 @@ export default function Faq() {
               </p>
               <p>There is nothing quite like the connection that is forged in these groups. I’ve
                 been awed by it, personally. If you are interested in exploring their potential
-                for yourself, I recommend that you
-                <LinkTo href="https://courses.opheron.com/masterminds"> check out which ones are upcoming </LinkTo>
+                for yourself, I recommend that you{' '}
+                <LinkTo href="https://courses.opheron.com/masterminds">check out which ones are upcoming</LinkTo>{' '}
                 and register for one that fits your schedule.
               </p>
             </dd>
@@ -156,7 +156,7 @@ export default function Faq() {
                 unique things about a coach is that the coach doesn’t actually need to be an
                 expert in the area in which they are helping their client. This is because
                 coaching is question-based, rather than teaching-based. A great coach can actually
-                help a client exponentially improve their performance
+                help a client exponentially improve their performance{' '}
                 <i>without knowing anything about the client’s field of expertise</i>. In contrast,
                 an unmarried marriage counsellor would and should be laughed out of practice.
               </p>
@@ -165,20 +165,20 @@ export default function Faq() {
                 trying to improve your physical health, your business success, or your love life.
                 The approach to improvement is fundamentally the same.
               </p>
-              <p>That said, I do have an affinity for those who are remote professionals, because of
-                <LinkTo href="https://www.codementor.io/@jaymes-opheron"> my experience as a remote web developer</LinkTo>
+              <p>That said, I do have an affinity for those who are remote professionals, because of{' '}
+                <LinkTo href="https://www.codementor.io/@jaymes-opheron">my experience as a remote web developer</LinkTo>
                 , and so it’s easier for me to grok the jargon, in turn making it
                 easier for me to ask the right questions.
               </p>
-              <p>If you want to step forward into this journey,
-                <LinkTo href="https://forms.gle/Hd13iF6iVsncr97i6" target="_blank"> fill out an application form now!</LinkTo>
+              <p>If you want to step forward into this journey,{' '}
+                <LinkTo href="https://calendly.com/jaymes-opheron/coaching-consultation-call" target="_blank">schedule a free strategy call with me now!</LinkTo>
               </p>
             </dd>
             <dt id="toastmasters" className={styles.active}>
               What is Toastmasters and why is it a big deal?
             </dt>
             <dd>
-              <p><LinkTo href="https://toastmasters.org" target="_blank" rel="noreferrer">Toastmasters International </LinkTo>
+              <p><LinkTo href="https://toastmasters.org" target="_blank" rel="noreferrer">Toastmasters International</LinkTo>{' '}
                 is a global nonprofit educational organization that teaches public
                 speaking and leadership skills through a network of local clubs. It’s been around
                 since 1924, and has shaped the lives of world-class leaders and communicators as
@@ -195,14 +195,14 @@ export default function Faq() {
                 completed two full educational paths: Effective Coaching and Presentation Mastery.
                 I’m also working through three more, so the grass doesn’t grow under my feet,
                 haha. I’ve also been highly involved in leadership, not only at the club level,
-                but also in
+                but also in{' '}
                 <LinkTo href="https://d32toastmasters.org/" target="_blank" rel="noreferrer">my district</LinkTo>.
                 I’ve been Area Director twice, and I’m currently a Division Director.
-                I’m currently also a member of four clubs:
-                <LinkTo href="https://harbortoastmasters.org/" target="_blank" rel="noreferrer">Harbor Club</LinkTo>,
-                <LinkTo href="https://sheltonwa.toastmastersclubs.org/" target="_blank" rel="noreferrer">Shelton Community Club</LinkTo>,
-                <LinkTo href="https://soundadvice.toastmastersclubs.org/" target="_blank" rel="noreferrer">Sound Advice Advanced</LinkTo>,
-                and <LinkTo href="https://nerdmasters.toastmastersclubs.org/" target="_blank" rel="noreferrer">Nerdmasters</LinkTo>
+                I’m currently also a member of four clubs:{' '}
+                <LinkTo href="https://harbortoastmasters.org/" target="_blank" rel="noreferrer">Harbor Club</LinkTo>,{' '}
+                <LinkTo href="https://sheltonwa.toastmastersclubs.org/" target="_blank" rel="noreferrer">Shelton Community Club</LinkTo>,{' '}
+                <LinkTo href="https://soundadvice.toastmastersclubs.org/" target="_blank" rel="noreferrer">Sound Advice Advanced</LinkTo>,{' '}
+                and <LinkTo href="https://nerdmasters.toastmastersclubs.org/" target="_blank" rel="noreferrer">Nerdmasters</LinkTo>{' '}
                 (which I helped charter).
               </p>
               <p>I wasn’t joking when I said I’m obsessed. I highly recommend you check out a
