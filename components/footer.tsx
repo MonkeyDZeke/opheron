@@ -34,7 +34,7 @@ export default function Footer({ page }: IProps) {
         </ul>
         <figure>
           <img src="/suit.jpg" alt="Jaymes O'Pheron" />
-          <figcaption>Jaymes O&apos;Pheron</figcaption>
+          <figcaption>Jaymes OʼPheron</figcaption>
         </figure>
       </div>
     </footer>

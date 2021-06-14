@@ -28,8 +28,8 @@ export default function Contribute() {
           <p>
             Therefore, here is now an opportunity for you to contribute to me
             being able to continue offering these powerful Masterminds free of charge.
-            If you&apos;re on this page, you&apos;ve already successfully registered, so it&apos;s
-            obviously not required to contribute anything. It&apos;s totally up to you.
+            If youʼre on this page, youʼve already successfully registered, so itʼs
+            obviously not required to contribute anything. Itʼs totally up to you.
           </p>
           <p className={styles.payment}>
             {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
