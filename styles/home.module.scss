@@ -2,9 +2,26 @@ main.home {
   padding-bottom: 80px;
 }
 
-section.top {
+section.segment {
   max-width: 100%;
   font-size: 150%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    max-width: 40%;
+
+    ul {
+      list-style-type: circle;
+    }
+  }
+}
+
+section.bio {
+  max-width: 100%;
+  font-size: 140%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -21,7 +38,7 @@ section.top {
   }
 
   > div:last-child {
-    max-width: 70%;
+    max-width: 40%;
     display: flex;
     flex-direction: column;
     padding: calc(1ex / 0.32);
@@ -38,5 +55,18 @@ section.top {
       max-width: 50%;
       padding: calc(1ex / 0.32);
     }
+  }
+}
+
+.point {
+  padding-left: 3em;
+  padding-right: 3em;
+  position: relative;
+
+  &::before {
+    content: '\00BB';
+    position: absolute;
+    left: 0;
+    font-size: 3em;
   }
 }
