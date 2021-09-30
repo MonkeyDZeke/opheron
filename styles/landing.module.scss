@@ -1,4 +1,4 @@
-main.home {
+main.landing {
   padding-bottom: 80px;
 }
 
@@ -48,12 +48,25 @@ section.bio {
     }
   }
 
-  @media(max-width: 1500px) {
+  @media(max-width: 1000px) {
     flex-direction: column-reverse;
 
     > div:first-child {
       max-width: 50%;
       padding: calc(1ex / 0.32);
     }
+  }
+}
+
+.point {
+  padding-left: 3em;
+  padding-right: 3em;
+  position: relative;
+
+  &::before {
+    content: '\00BB';
+    position: absolute;
+    left: 0;
+    font-size: 3em;
   }
 }
