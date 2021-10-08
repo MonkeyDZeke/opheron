@@ -1,4 +1,5 @@
 import { ReactChild, ReactChildren } from 'react'
+import { PopupWidget } from 'react-calendly'
 import Footer, { IPage } from './footer'
 import styles from '../styles/layout.module.scss'
 
@@ -26,6 +27,16 @@ export default function Layout({ children, page = 'home' }: { children: ReactChi
         {children}
         <Footer page={page} />
         <small>&copy; 2020 Catalytic Conversations</small>
+        <PopupWidget
+          url="https://calendly.com/jaymes-opheron"
+          text="Schedule time with me!"
+          color="#045601"
+          textColor="#ffffff"
+          pageSettings={{
+            primaryColor: '#045601',
+
+          }}
+        />
       </div>
     </>
   )
