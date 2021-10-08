@@ -10,7 +10,7 @@ export default function Layout({ children, page = 'home' }: { children: ReactChi
     <>
       <div className={styles.tagBar}>
         <h2>
-          Liberating You From Digital Burnout &amp; Disengagement
+          Reconciling Humanity and Technology
         </h2>
       </div>
       <h1 className={styles.logo}><a href="/"><img src="/logo.png" alt="Catalytic Conversations" /></a></h1>
