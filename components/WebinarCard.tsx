@@ -7,7 +7,7 @@ const WebinarCard = ({
   <div className={styles.card}>
     <h4>Sign Up For My Next Webinar!</h4>
     <script src="https://cdn.podia.com/embeds.js" async />
-    <LinkTo {...rest} href="https://courses.opheron.com/can-social-media-be-healthy" data-podia-embed="card">Can Social Media be Healthy?</LinkTo>
+    <LinkTo {...rest} href="courses.opheron.com/healthy-hybrid-communities" data-podia-embed="card">Healthy Hybrid Communities</LinkTo>
   </div>
 )
 

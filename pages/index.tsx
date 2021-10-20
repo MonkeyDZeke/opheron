@@ -17,6 +17,23 @@ export default function Home() {
           <section className={styles.segment}>
             <WebinarCard />
           </section>
+          <section className={styles.segment}>
+            <div>
+              <p>
+                I help remote professionals advance their career and find holistic success through
+                Digital Mastery.
+              </p>
+              <p>
+                This means conquering digital burnout, stabilizing productivity, overcoming
+                overwhelm, improving authentic connection online, and more!
+              </p>
+              <p>
+                I provide coaching, consulting, speaking, and training services to individuals and
+                organizations seeking excellence and confidence in online endeavors. Let me know
+                what that looks like for you!
+              </p>
+            </div>
+          </section>
           <section className={styles.bio}>
             <div><img src="/headshot.jpg" alt="Jaymes O'Pheron" /></div>
             <div>
