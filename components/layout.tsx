@@ -21,7 +21,7 @@ export default function Layout({ children, page = 'home' }: { children: ReactChi
       {/* <h2>Reconciling Humanity and Technology</h2> */}
       <nav className={styles.nav}>
         <a href="/" className={getClassName('home')}>HOME</a>
-        <a href="/coaching" className={getClassName('coaching')}>COACHING</a>
+        <a href="https://courses.opheron.com/coaching" className={getClassName('coaching')}>COACHING</a>
         <a href="/speaking" className={getClassName('speaking')}>SPEAKING</a>
         <a href="https://courses.opheron.com/free-webinars">UPCOMING EVENTS</a>
         <a href="/testimonials" className={getClassName('testimonials')}>TESTIMONIALS</a>

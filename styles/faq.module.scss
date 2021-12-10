@@ -11,13 +11,13 @@ article.faq {
       font-style: italic;
       font-size: 110%;
 
-      // &::before {
-      //   content: '\2795';
-      //   position: absolute;
-      //   top: 0;
-      //   left: -2ch;
-      //   font-size: 90%;
-      // }
+      &::before {
+        content: '\00BB';
+        position: absolute;
+        top: 0;
+        left: -2ch;
+        font-size: 150%;
+      }
       &.active {
         // &::before {
         //   content: '\2796';

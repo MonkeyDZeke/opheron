@@ -13,7 +13,7 @@ export default function Faq() {
 
       <Layout page="faq">
         <article className={styles.faq}>
-          <p><strong>Questions are awesome, glad youʼre asking some!</strong></p>
+          <h4>Questions are awesome, glad youʼre asking some!</h4>
           <dl>
             <dt id="bio" className={styles.active}>
               Tell me more about you; why did you choose this career?
@@ -26,12 +26,15 @@ export default function Faq() {
                 questions, and Iʼm an expert in asking questions.
               </p>
 
-              <p>I started out as <a href="https://www.codementor.io/@jaymes-opheron" target="_blank" rel="external noreferrer">a freelance web developer </a>
-                and I enjoyed the intellectual challenge, for sure. But as I gained experience,
-                I found myself gravitating towards coaching other developers and helping them
-                develop their skills more effectively. I particularly found satisfaction in
-                leveraging my experience working 100% remotely and my communication expertise
-                to help others make authentic connections online, even outside my industry.
+              <p>I started out as <a href="https://www.codementor.io/@jaymes-opheron" target="_blank" rel="external noreferrer">a freelance web developer</a>, though.
+                I was good at it; I enjoyed the intellectual challenge. But I found myself burning
+                out. In the process of exploring why and resolving the underlying issues, I
+                discovered a passion for helping other nerds not kill themselves.
+                As I gained experience, I found myself gravitating towards coaching other
+                developers and helping them develop their skills more effectively.
+                I particularly found satisfaction in leveraging my experience working
+                100% remotely and my communication expertise to help others make authentic
+                connections online, even outside my industry.
               </p>
 
               <p>Similarly, in my obsession <span className="short">(my wife might say addiction)</span>{' '}
@@ -44,10 +47,11 @@ export default function Faq() {
 
               <p>When I realized all these things, it clicked for me, and I discovered that while
                 web development was <i>what I did</i>, <LinkTo href="/faq#coaching">coaching</LinkTo> is <i>who I am</i>. Now, I’m pivoting my
-                focus from being a web developer to serving web developers and other remote
-                professionals. There is a huge need right now with digital burnout on the rise and
-                soft skills becoming not only a necessary edge in competitive markets but becoming
-                increasingly critical for survival. Depression is not just lost productivity.
+                focus from being a web developer to serving web developers, other remote
+                professionals, and hybrid communities. There is a huge need right now with
+                digital burnout on the rise and soft skills becoming not only a necessary edge
+                in competitive markets but also becoming increasingly critical for survival.
+                Depression is not just lost productivity.
               </p>
 
               <p>So let me ask you a question.</p>
@@ -123,7 +127,7 @@ export default function Faq() {
               What exactly is a Mastermind Group?
             </dt>
             <dd>
-              <p>The concept of the Mastermind was originally coined by Napoleon Hill as a result
+              <p>The concept of the mastermind was originally coined by Napoleon Hill as a result
                 of his research into the most successful people in the world. Here is its simplest
                 and most concise definition:
               </p>
@@ -140,7 +144,7 @@ export default function Faq() {
                 project as a focus, sometimes not. Not all work as well as others depending on who
                 is in them, who is facilitating them, and various other factors.
               </p>
-              <p>The kind of Mastermind that I facilitate has been proven to be
+              <p>The kind of mastermind that I facilitate has been proven to be
                 dramatically effective by tens of thousands of people all over the world in every
                 conceivable industry and background. As a trained facilitator, I lead a group of
                 6-10 select, growth-focused, motivated individuals through a powerful, life-changing
@@ -165,8 +169,8 @@ export default function Faq() {
             <dd>
               <p>The word ‘coach’ has been thrown around so much lately that its meaning has
                 become bloated almost beyond recognition. A lot of people associate it most
-                strongly with sports coaches, which is unfortunate. There’s a glut of people
-                wanting to share their advice and call it coaching. Not that there’s anything
+                strongly with loud-yelling sports coaches, which is unfortunate. There’s a glut of
+                people wanting to share their advice and call it coaching. Not that there’s anything
                 wrong with teaching things or educating people -- after all, <LinkTo href="https://courses.opheron.com/free-webinars">I do that too</LinkTo>.
               </p>
               <p>But coaching isn’t teaching. It isn’t training.</p>
@@ -242,10 +246,9 @@ export default function Faq() {
                 accomplish things they never could have imagined. It’s amazing how much having
                 a safe place to fail and grow will do for you.
               </p>
-              <p>Myself, I have almost completed two Distinguished Toastmaster awards, and I’ve
-                completed two full educational paths: Effective Coaching and Presentation Mastery.
-                I’m also working through three more, so the grass doesn’t grow under my feet,
-                haha. I’ve also been highly involved in leadership, not only at the club level,
+              <p>Myself, I have almost completed my Distinguished Toastmaster award, and I’ve
+                completed four full educational paths, with a couple more in progress.
+                I’ve also been highly involved in leadership, not only at the club level,
                 but also in{' '}
                 <LinkTo href="https://d32toastmasters.org/" target="_blank" rel="noreferrer">my district</LinkTo>.
                 I’ve been Area Director twice, and a Division Director once, though I’m current on
