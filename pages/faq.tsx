@@ -103,11 +103,11 @@ export default function Faq() {
               Do I have to be a Christian to benefit from your programs?
             </dt>
             <dd>
-              <p>As a devout Christian and lay theologian everything I do is predicated upon my
+              <p>As a devout Christian everything I do is predicated upon my
                 faith, so the programs I offer are going to be colored and shaped by that
                 worldview. However, I am not equipped or called to be a spiritual counsellor,
                 pastor, or priest. My calling to the laity is very clear to me, and as such the
-                services I offer are not spiritual in focus. The truths we explore in a Mastermind
+                services I offer are not spiritual in focus. The truths we explore in a
                 group or in a coaching program are universal and recognized by world-class experts
                 throughout history and across cultures.
               </p>
@@ -248,10 +248,10 @@ export default function Faq() {
                 haha. I’ve also been highly involved in leadership, not only at the club level,
                 but also in{' '}
                 <LinkTo href="https://d32toastmasters.org/" target="_blank" rel="noreferrer">my district</LinkTo>.
-                I’ve been Area Director twice, and I’m currently a Division Director.
-                I’m currently also a member of four clubs:{' '}
-                <LinkTo href="https://harbortoastmasters.org/" target="_blank" rel="noreferrer">Harbor Club</LinkTo>,{' '}
-                <LinkTo href="https://sheltonwa.toastmastersclubs.org/" target="_blank" rel="noreferrer">Shelton Community Club</LinkTo>,{' '}
+                I’ve been Area Director twice, and a Division Director once, though I’m current on
+                sabbatical from District leadership.
+                I’m currently also an active member of three clubs:{' '}
+                <LinkTo href="https://bold.toastmastersclubs.org/" target="_blank" rel="noreferrer">Bold &amp; Blue</LinkTo>,{' '}
                 <LinkTo href="https://soundadvice.toastmastersclubs.org/" target="_blank" rel="noreferrer">Sound Advice Advanced</LinkTo>,{' '}
                 and <LinkTo href="https://nerdmasters.toastmastersclubs.org/" target="_blank" rel="noreferrer">Nerdmasters</LinkTo>{' '}
                 (which I helped charter).

@@ -45,14 +45,13 @@ export default function Speaking() {
             behind childhood for adulting, and instead truly develop maturity mastery!
           </p>
           <p>
-            Available presentation topics include:
+            Based on this passion, available presentation topics include:
           </p>
           <ul>
-            <li>The true cause and nature of work burnout -- and its cure</li>
-            <li>The secrets to applying personality insights, even online</li>
-            <li>Toxic video conferencing and how to heal the problem</li>
-            <li>Games, productivity, and the power of story for crafting community</li>
-            <li>Social media relationships and work culture</li>
+            <li>The True Causes and Cures of Digital Burnout</li>
+            <li>The Secrets to Avoiding Toxicity on Social Media</li>
+            <li>How to Craft Healthy Hybrid Communities</li>
+            <li>Inspiring Value-Driven Behavior in Digitally-Integrated Cultures</li>
           </ul>
           <p>
             With each paid presentation I also include a special offer to attendees who opt-in: an

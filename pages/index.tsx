@@ -17,43 +17,59 @@ export default function Home() {
           <section className={styles.segment}>
             <WebinarCard />
           </section>
-          <section className={styles.segment}>
+          <section className={styles.double}>
             <div>
+              <h4>How I Help Remote Professionals</h4>
               <p>
-                I help remote professionals advance their career and find holistic success through
+                Burnout, lack of connection, unstable work habits, exhaustion, increasing
+                frustration with the work you used to love – all sapping your potential
+                and undercutting your success. Tangibly.
+              </p>
+              <p>
+                But while we may know what to do, actual implementation is not as easy as we wish.
+              </p>
+              <p>
+                We aren’t designed to grow alone. Lasting transformation cannot be found apart
+                from community. A coaching relationship is critical for significant growth.
+              </p>
+              <p>
+                Transform your career and personal life through one-on-one coaching tailored to help
+                you develop an actionable growth plan and support you every step along the way to
                 Digital Mastery.
               </p>
               <p>
                 This means conquering digital burnout, stabilizing productivity, overcoming
                 overwhelm, improving authentic connection online, and more!
               </p>
-              <p>
-                I provide coaching, consulting, speaking, and training services to individuals and
-                organizations seeking excellence and confidence in online endeavors. Let me know
-                what that looks like for you!
-              </p>
             </div>
-          </section>
-          <section className={styles.bio}>
-            <div><img src="/headshot.jpg" alt="Jaymes O'Pheron" /></div>
             <div>
-              <p>Greetings friend, my name is Jaymes &ndash; Jaymes with a <i>why.</i> Iʼm here to
-                help provide you precise clarity on why the change you crave in your life is not
-                happening, and then <i>what you can do about it.</i>
+              <h4>How I Help Hybrid Communities</h4>
+              <p>
+                Strong community is critical for success in any worthwhile endeavor. Humans are not
+                designed to operate in isolation! But how do you engage a community that is split
+                across both online and in-person environments?
               </p>
-              <p>As a certified coach I draw from my experience as a successful remote web
-                developer, Toastmaster, and addictions recovery facilitator to help you develop
-                the underlying relational skills necessary for finding liberty from burnout and
-                implementing radical growth. My specialty is in dealing with digital burnout,
-                disengagement, and volatile productivity for remote professionals.
+              <p>
+                Relational efficiencies are sharply reduced in online environments, creating an
+                imbalance of community connection. This means it’s harder to support the health
+                of a hybrid community than a 100% online one! But it is possible with the right
+                strategic awareness and culture-defining mastery.
               </p>
-              <p>We <i>can</i> transcend the obstacles presented by online environments and connect
+              <p>
+                To this end, I provide interactive workshops, training presentations, and consulting
+                to facilitate the growth of healthy and digitally integrated cultures in
+                organizations. Drawing from a deep understanding of how society has thrived over
+                millennia, I bring insights from mythic identity structures and monastic wisdom to
+                bear on modern challenges.
+              </p>
+              <p>
+                We <i>can</i> transcend the obstacles presented by online environments and connect
                 authentically!
               </p>
             </div>
           </section>
           <section>
-            <ActionLink target="_blank" rel="external" href="https://calendly.com/jaymes-opheron/coaching-consultation-call">Book a free strategy call now!</ActionLink>
+            <ActionLink target="_blank" rel="external" href="https://calendly.com/jaymes-opheron/coaching-consultation-call">Book a no-fee strategy call now!</ActionLink>
           </section>
         </main>
       </Layout>
