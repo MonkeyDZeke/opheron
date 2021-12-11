@@ -9,7 +9,10 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Catalytic Conversations</title>
+        <title>Catalytic Conversations - Digital Wellness Coaching</title>
+        <meta name="description" content="Reconciling humanity and technology for remote professionals and hybrid workplaces through coaching, consulting, and training services." />
+        <link rel="canonical" href="https://opheron.com" />
+        <meta name="robots" content="index, follow" />
       </Head>
 
       <Layout>

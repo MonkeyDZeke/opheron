@@ -7,7 +7,7 @@ export default function Burnout() {
   return (
     <div className="container">
       <Head>
-        <title>Catalytic Conversations</title>
+        <title>Burnout - Catalytic Conversations</title>
       </Head>
 
       <Layout>
