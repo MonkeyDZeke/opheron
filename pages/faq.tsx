@@ -67,7 +67,7 @@ export default function Faq() {
               <p>Let’s talk about hope, solutions, and your future.</p>
 
               <p>I’m looking forward to hearing from you. :)</p>
-              <ActionLink target="_blank" rel="external" href="https://calendly.com/jaymes-opheron/coaching-consultation-call">Book a free strategy call now!</ActionLink>
+              <ActionLink target="_blank" rel="external" href="https://calendly.com/jaymes-opheron/curiosity-call">Go ahead and schedule a time just for us to get to know each other &mdash; no fee, no agenda!</ActionLink>
             </dd>
             <dt id="solo" className={styles.active}>
               Why couldnʼt I simply read amazing books and apply them myself?
