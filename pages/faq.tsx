@@ -148,7 +148,7 @@ export default function Faq() {
                 dramatically effective by tens of thousands of people all over the world in every
                 conceivable industry and background. As a trained facilitator, I lead a group of
                 6-10 select, growth-focused, motivated individuals through a powerful, life-changing
-                book or course (n addition to my own content, I include a few select books by
+                book or course (in addition to my own content, I include a few select books by
                 communication and leadership expert John Maxwell) for a set number of weeks. We meet
                 weekly for an hour where we celebrate our wins, collaboratively seek solutions for
                 challenges we’ve faced, explore the content selected for that week’s focus for
