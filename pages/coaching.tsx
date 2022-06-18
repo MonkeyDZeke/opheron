@@ -82,9 +82,6 @@ export default function Coaching() {
             you would consider me as a potential partner in your journey.
           </p>
           <p>
-            <ActionLink target="_blank" rel="external" href="https://courses.opheron.com/coaching">Review one of the coaching programs I offer</ActionLink>
-          </p>
-          <p>
             <ActionLink target="_blank" rel="external" href="https://calendly.com/jaymes-opheron/curiosity-call">Schedule a call with me so we can explore how I can serve you uniquely</ActionLink>
           </p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/XNA4wHhXIlY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />

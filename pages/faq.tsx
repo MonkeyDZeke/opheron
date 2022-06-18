@@ -158,9 +158,7 @@ export default function Faq() {
               </p>
               <p>There is nothing quite like the connection that is forged in these groups. I’ve
                 been awed by it, personally. If you are interested in exploring their potential
-                for yourself, I recommend that you{' '}
-                <LinkTo href="https://courses.opheron.com/masterminds">check out which ones are upcoming</LinkTo>{' '}
-                and register for one that fits your schedule.
+                for yourself, reach out and see when the next one is happening!
               </p>
             </dd>
             <dt id="coaching" className={styles.active}>
@@ -171,7 +169,7 @@ export default function Faq() {
                 become bloated almost beyond recognition. A lot of people associate it most
                 strongly with loud-yelling sports coaches, which is unfortunate. There’s a glut of
                 people wanting to share their advice and call it coaching. Not that there’s anything
-                wrong with teaching things or educating people -- after all, <LinkTo href="https://courses.opheron.com/free-webinars">I do that too</LinkTo>.
+                wrong with teaching things or educating people -- after all, <LinkTo href="/speaking">I do that too</LinkTo>.
               </p>
               <p>But coaching isn’t teaching. It isn’t training.</p>
               <p>It isn’t me pouring knowledge or information into your head that you didn’t have

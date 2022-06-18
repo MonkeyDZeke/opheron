@@ -2,7 +2,7 @@ import Head from 'next/head'
 import ActionLink from '../components/ActionLink'
 // import LinkTo from '../components/LinkTo'
 import Layout from '../components/layout'
-import EventbriteCard from '../components/EventbriteCard'
+// import EventbriteCard from '../components/EventbriteCard'
 import styles from '../styles/home.module.scss'
 
 export default function Home() {
@@ -17,9 +17,9 @@ export default function Home() {
 
       <Layout>
         <main className={styles.home}>
-          <section className={styles.segment}>
+          {/* <section className={styles.segment}>
             <EventbriteCard />
-          </section>
+          </section> */}
           <section className={styles.double}>
             <div>
               <h4>How I Help Remote Professionals</h4>
